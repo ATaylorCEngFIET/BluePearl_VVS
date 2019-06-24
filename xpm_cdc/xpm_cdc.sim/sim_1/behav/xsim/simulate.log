@@ -1,0 +1,5 @@
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+Failure: simulation complete
+Time: 1965 ns  Iteration: 0  Process: /tb_xpm_bps/stim  File: C:/HDL_projects_git/xpm_cdc/xpm_cdc.srcs/sim_1/new/tb_xpm_bps.vhd
+$finish called at time : 1965 ns : File "C:/HDL_projects_git/xpm_cdc/xpm_cdc.srcs/sim_1/new/tb_xpm_bps.vhd" Line 50

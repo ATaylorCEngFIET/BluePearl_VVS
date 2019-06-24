@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../xpm_cdc.srcs/sources_1/new/xpm_bps.vhd" \
+"../../../../xpm_cdc.srcs/sim_1/new/tb_xpm_bps.vhd" \
+
+# Do not sort compile order
+nosort
