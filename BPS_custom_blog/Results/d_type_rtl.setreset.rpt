@@ -1,0 +1,8 @@
+===============================
+Blue Pearl Sets/Resets Report created on: Thu Sep 12 10:15:22 2019
+===============================
+Reset/Set: d_type.reset is Asynchronous. It is a Primary Reset signal which is active High with reset logic None and is not synchronously de-asserted. Fanout: 1.
+===============================
+1 primary set/resets identified and reported.
+0 internal set/resets identified and reported.
+===============================

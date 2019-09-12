@@ -1,0 +1,79 @@
+===============================
+Blue Pearl Design Summary Report created on: Thu Sep 12 10:15:23 2019
+===============================
+Blue Pearl Version: 2019.1.53518
+Running As: aptay@DESKTOP-HQKVQ13
+Running From: C:/Users/aptay/Dropbox/adiuvo/bluepearl/BPS_custom_blog
+Original Command Line: -f Results/bluepearl.bluepearlgenerated.f
+Effective Command Line: 
+   -output
+   C:/Users/aptay/Dropbox/adiuvo/bluepearl/BPS_custom_blog/Results
+   -tcl
+   C:/Users/aptay/Dropbox/adiuvo/bluepearl/BPS_custom_blog/Results/bluepearl.settings.tcl
+   -tcl
+   C:/Users/aptay/Dropbox/adiuvo/bluepearl/BPS_custom_blog/Results/bluepearl.runme.tcl
+===============================
+Compilation Unit Mode: Default
+Total Number of Files: 1
+	Compilation File Mode:Default
+	Files:
+	C:/Users/aptay/Dropbox/adiuvo/bluepearl/BPS_custom_blog/test_case.vhd - VHDL 2008 - Translate off Disabled 
+===============================
+Parsing Settings:
+	Top Level Module: d_type
+	Top Level Architecture: rtl
+	Parameters/Generics:
+		<none>
+	Parameters/Generics to be Ignored:
+		<none>
+	Defines:
+		<none>
+	Include Directories:
+		<none>
+	Verilog Library Files:
+		<none>
+	Verilog Library Directories:
+		<none>
+	Verilog Library Directory Extensions:
+		.v
+	Verilog Module Library Search Path:
+		<none>
+	Autosort VHDL: yes
+	Autosort SV: yes
+===============================
+Top Level Design:
+	Name            : d_type
+	Num Input Ports : 0
+	Num Output Ports: 0
+	Num Inout Ports : 0
+	Num Clocks      : 0
+	Num DFFs        : 1
+	Num Latches     : 0
+===============================
+Enabled Checks:
+	SLCC - Adv-01 - Commands should not be grouped on the same line.
+===============================
+Modified Message Severities:
+	None
+===============================
+Message Summary:
+	Message ID:  BPS-0040: 1 warning - More than one statement on this line.
+	Message ID:  BPS-0729: 7 comments - Status: %s on '%s'
+	Message ID:  BPS-0730: 96 comments - Status: %s
+	Message ID: VERI-9014: 1 informational - The Verilog search library for imported/instantiated design units now includes '%s'
+	Message ID: VHDL-1010: 1 informational - analyzing architecture '%s' of '%s'
+	Message ID: VHDL-1012: 1 informational - analyzing entity '%s'
+	Message ID: VHDL-1067: 2 informationals - executing '%s(%s)'
+	Message ID: VHDL-1481: 1 comment - Analyzing %s file '%s' into library '%s'
+	Message ID: VHDL-1493: 3 comments - Restoring VHDL parse-tree '%s.%s' from '%s'
+	Message ID: VHDL-1504: 1 informational - The default vhdl library search path is now "%s"
+	Message ID: VHDL-9010: 1 informational - The VHDL search library for imported/instantiated design units now includes '%s'
+	Message ID: VNLR-9000: 2 informationals - The Verilog netlist search library for imported/instantiated design units now includes '%s'
+===============================
+Summary:
+	Total Number of Messages: 117
+	Number of Errors:         0
+	Number of Warnings:       1
+	Number of Informationals: 9
+	Number of Comments:       107
+===============================

@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BluePearlDesignFile MajorVersion="1" MinorVersion="0" ResultsDir="Results">
+    <Licenses>
+        <License name="ace" checkedOut="1"/>
+        <License name="Analyze" checkedOut="1"/>
+        <License name="CDC" checkedOut="0"/>
+        <License name="FSM" checkedOut="1"/>
+        <License name="SDC" checkedOut="1"/>
+        <License name="AUTO_CLOCK_DOMAIN" checkedOut="1"/>
+        <License name="CUSTOM_UGC" checkedOut="0"/>
+    </Licenses>
+    <Root></Root>
+    <Architecture></Architecture>
+    <IPExpansionDir></IPExpansionDir>
+    <fFile Enabled="0" AlwaysUseCWDFFileRead="0"></fFile>
+    <QuartusProjectFile Enabled="0"></QuartusProjectFile>
+    <XilinxProjectFile Enabled="0"></XilinxProjectFile>
+    <MicrosemiProjectFile Enabled="0"></MicrosemiProjectFile>
+    <SynplifyProProjectFile Enabled="0"></SynplifyProProjectFile>
+    <ParamsFile></ParamsFile>
+    <ClockSDCFile Enabled="0"></ClockSDCFile>
+    <SignalConstraintSDCFile Enabled="0"></SignalConstraintSDCFile>
+    <NoBPSVDB Enabled="0"/>
+    <PropagateConstantConstraints Enabled="0"/>
+    <AutoSortVHDL Enabled="1"/>
+    <AutoSortSV Enabled="1"/>
+    <ShortenLongModuleNames Enabled="0"/>
+    <MaxModuleNameLength Enabled="0" MaxLength="200"/>
+    <CheckCDCFromAsyncSetReset Enabled="0"/>
+    <CheckCDCFromPrimaryInputs Enabled="1"/>
+    <CheckCDCFromUnclockedPrimaryInputs Enabled="1"/>
+    <CheckCDCToPrimaryOutputs Enabled="1"/>
+    <CheckCDCToUnclockedPrimaryOutputs Enabled="1"/>
+    <MEAReportMissingElseOnly Enabled="0"/>
+    <ReportOnPreviouslyAssigned Enabled="0"/>
+    <hcccreportrefs Enabled="0"/>
+    <GatesToMuxes Enabled="0"/>
+    <EnableCheckReportingForLibCells Enabled="0"/>
+    <LibRescan Enabled="0"/>
+    <MaxLoopLimit Limit="10000"/>
+    <NonConstMaxLoopLimit Limit="1000"/>
+    <VeriRealAsInteger Enabled="0"/>
+    <AutoBBPortDirection Enabled="1"/>
+    <DisableTranslateOff Enabled="0"/>
+    <UnitNameMaxLength MaxLength="200"/>
+    <IsolateConfigurationFileloc Enabled="0"/>
+    <AllowImplicitNamesWhenInitialized Enabled="0"/>
+    <RamOptions EnableRAMInferencing="1" MinRAMSize="0" AllowAsynchRAMs="1" AllowRAMResets="1" AllowRAMsInLoops="1" AllowRAMsFromSVStructures="1"/>
+    <ModuleLocationOptions AllowEntitySingleArchFile="0" ForceEntitySingleArchFile="0"/>
+    <CheckIndentOptions SpacesPerIndentLevel="4" BeginsCauseIndentation="1" DesignUnitsCauseIndentation="0" CasesCauseIndentation="1" FunctionsCauseIndentation="1" PortsCauseIndentation="0" ParametersCauseIndentation="1" ConditionalsCauseIndentation="1" BracesCauseIndentation="1" AlwaysCauseIndentation="1" CommentsObeyIndentation="0" SignalListsObeyIndentation="0"/>
+    <CustomRunScript Enabled="0"></CustomRunScript>
+    <CurrentExtraInfoPackage Package="ACS"/>
+    <ReportPrefix Prefix=""/>
+    <DefaultVerilogType>VERILOG_2001</DefaultVerilogType>
+    <DefaultSVType>SYS_VERILOG</DefaultSVType>
+    <DefaultVHDLType>VHDL_2008</DefaultVHDLType>
+    <CompilationMode>DEFAULT</CompilationMode>
+    <VerilogExtensions>.v;.veri;.ver;.vg;.tf</VerilogExtensions>
+    <GLVerilogExtensions>.gv</GLVerilogExtensions>
+    <VerilogHeaderExtensions>.vh;.svh;.h</VerilogHeaderExtensions>
+    <SystemVerilogExtensions>.sv;.psl</SystemVerilogExtensions>
+    <VhdlExtensions>.vhdl;.vhd;.vho;.hdl</VhdlExtensions>
+    <ClockInfo DefaultClockCycle="20"/>
+    <FileList>
+        <File Library="work" Language="Auto Detect" TS="2019-09-06T20:40:46" IgnoreFile="0" DisableTranslateOff="0" MD5="83F254B3-DD95-A717-CA5C-832F2AC5C009">test_case.vhd</File>
+    </FileList>
+    <IncludePaths/>
+    <IgnoreFiles/>
+    <IgnoreExtensions/>
+    <IncludeAnsiFileSearch Enabled="1"/>
+    <TclVariables/>
+    <TclFiles/>
+    <IgnoredTclCommands/>
+    <LibraryDirs/>
+    <LibraryFiles/>
+    <LibertyFiles/>
+    <ModuleLibraryPaths Automatic="0"/>
+    <UserGreyCellFiles/>
+    <WaiversFiles/>
+    <UserClockCellFiles/>
+    <Extensions>.v</Extensions>
+    <Macros/>
+    <AutoDiscoverDirs/>
+    <LibMappings/>
+    <Parameters/>
+    <ParameterIgnores/>
+    <EnableStopAfter StopAfterErrors="0"/>
+    <ModuleAttributes/>
+    <Clocks/>
+    <ClockBuses/>
+    <AllInitials/>
+    <Resets/>
+    <PortClockDomains/>
+    <AnalysisOptions FanoutLimit="8" MaxCombClock="" AutoBlackBox="false" StopLoadingOnSDCErrors="true" AutoMarkEmptyAsBlackBox="false" MakeAllClocksSynchronous="false" IgnoreClockDomainsFromUser="false" AutoDerivedClockDomains="true" AutoDetectClockDomains="false" UnsynchAutoClockDomainThreshold="80" RequireAllClocksToMeetThreshold="false" DesignLevelAnalysis="true" ModuleLevelAnalysis="true" LimitEndPoints="false" MaximumCombinationalLevels="20" PerMessageLimit="25" PerMessageStorageLimit="10000" MBA_EXCLUDE_NON_OVERFLOW_CONSTANT="false" MBA_EXCLUDE_COUNTERS="true" MBA_EXCLUDE_INCREMENTERS="true" MBA_EXCLUDE_ARITHMETIC="false" MBA_EXCLUDE_ALL_ARITHMETIC="false" MBA_EXCLUDE_OPTIMIZED="false" MBA_CONSTANT_SIZE_STRICT="false" MBA_IGNORE_VARIABLE_VS_INTEGER="false" MaxFanout="8" MaxFanoutSetReset="8" MaxFanoutClock="8" MaxFanoutPort="8" MaxFanoutDFF="8" MaxLineLength="72" MaxNumLinesPerModule="80" ITEDepth="3" MaxBusWidth="32" ReportMuxedClocksAsGatedClocks="false" ReportRSTNAMETop="1" ReportRSTNAMESub="0" ReportUnnamedNonGenBlock="1" ReportUnnamedBlockNonGenTop="1" ReportUnnamedBlockNonGenSub="1" ReportUnnamedNonGenBlockEnd="0" ReportUnnamedProcessEnd="0" ReportUnnamedBlockTop="1" ReportUnnamedBlockSub="0" ReportAllUnnamedGenStatements="0" ReportUnnamedLoop="1" ReportUnnamedLoopExit="1" ReportUnnamedLoopEnd="1" ReportUnnamedLoopNext="1" ReportALNTop="1" ReportALNSub="0" ReportRegoTop="1" ReportRegoSub="1" ReportRegiTop="1" ReportRegiSub="1" AlteraLibSupport="" MicrosemiLibSupport="" MicrosemiCompToLibName="" XilinxLibSupport="" XilinxGlblSupport="0" CheckXilinxObjects="0" XilinxGreyCellXPRIP="1" VHDLStdPackageIDsAsKeywords="true" IdealConnectivityForLibraryCells="true">
+        <ReportOptions ReportClocks="true" ReportGatedClocks="true" ReportEquivalentClocks="true" ReportRegisterClocks="false" ReportDffs="true" ReportObjectCounts="false" ReportHierarchicalObjectCounts="false" ReportModuleInformation="false" ReportMissingModules="true" ReportCounters="false" ReportParameters="false" ReportSLOC="false" ReportLatches="true" ReportMuxesDrivingDFFs="false" ReportCyclicSignals="false" ReportCyclicRegisters="false" ReportNets="false" ReportITE="false" ReportRAM="false" ReportPorts="false" ReportResets="true" ReportVDBInfo="false" ReportFSM="false" ReportDisabledCode="false" ConstraintVerificationReport="false" LicenseReport="false" ReportRuntimeLogs="false" ReportPulseGenerators="false" ReportCDCs="false" ReportClockInteraction="true" ReportKeywords="false" ExtendedSummaryReport="false" ESRCompareAgainstNamedRuns="false" ESRCompareAgainstLoadRun="" ESRCompareAgainstAnalyzeRun="" ESRReportOnParsing="true" ESRReportOnSystem="false" ESRReportOnErrors="true" ESRReportOnWarnings="true" ESRReportOnInformationals="true" ESRReportOnComments="false" ReportWontFixSummary="false" ReportMustFixSummary="false" ReportCDCWaiverSummary="false" LogCurrentPath="false"/>
+        <DisableACE Value="false"/>
+        <ReportSystemInfo ReportSystemInfo="0" ReportMemoryStateIntervalEnabled="0" ReportMemoryStateInterval="0"/>
+        <DetailedAlgorithmicUpdate Value="0"/>
+        <MaxSecondsBetweenUpdates Value="5"/>
+        <MaxIterationsBetweenUpdates Value="100"/>
+        <TimestampMessages TimestampMessages="0"/>
+        <SDCWriteOptions HierarchySeparator="/" SDCFormat="Xilinx" AlwaysAddRegSuffix="true" DoQVectors="false" GenGetNets="false" SplitBuses="false" GenerateFPForResetSignals="false" GenerateThroughExceptions="false" CommentOutSetHierarchySeparator="false" GenerateClockDefs="false" GenerateIODelays="false" SupplyMaxToIODelays="true" SupplyMinToIODelays="false" InputDelay="0" OutputDelay="0" DFFMappingFile="" BusAlias="false" InsertNewLine="false" CombineConstraints="false" GenerateSetClockGroups="false" UseSourceClockInGeneratedClocks="true" GenerateSeparateSDC="false" GenerateFunctionalTimingExceptions="true" GenerateMCPPathsForSyncClocks="true" GenerateClockToClockFP="off">
+            <MCPSetupAndHold ReportMCPSetupAndHoldTimes="false" Type="2" HoldEqCycleValue="0" HoldEqSetupOpCycleOp="-" HoldEqSetupOpCycleValue="1" HoldEqCycleOpSetupOp="-" HoldEqCycleOpSetupValue="1"/>
+        </SDCWriteOptions>
+        <FSMOptions ConvertImplicitFSMs="false" AddResetToConvertedImplicitFSMs="false" ExpandFSMOnOutOfBounds="false" ExpandFSMToStateVarSize="false" ReportFSMDefaultStateTransitions="true" MaximumNumberOfExpandedStates="1024"/>
+        <FPMCPAnalysisOptions Effort="Low" HandleDistributedControlSignals="false" SearchForDataStability="false" AllowMultiCyclePathsWithoutExplicitStateRetention="false" MultiCyclePathAnalysisForControlGates="false" AnalyzePulseGenerators="false" ReportMultiCyclePathsDependentOnMultipleCyclicSignals="false" EnableMultipleCycleFPA="false" EnabledMCPSeqAnalysis="false" EnableFSMMCPAnalysis="false" CheckPOPaths="true" CheckMemoryPaths="true" CheckDFFPaths="true" AssumeStateRetentionClockGating="false" AssumeResetOnlyAtInitialization="false" AnalyzeCyclicSignals="false" DetailedAnalysisOfControlLogic="false" IgnoreConstantControlledFPs="false" SingleDomainAnalysis="true" FPMCPFilterType="" FPMCPIncludeFilterFromOnly="false" FPMCPIncludeFilterToOnly="false">
+            <FPMCPFilterQuartusFile></FPMCPFilterQuartusFile>
+            <FPMCPFilterXilinxFile></FPMCPFilterXilinxFile>
+            <FPMCPFilterSDCFile></FPMCPFilterSDCFile>
+            <Fpmcp_IncludeEndPoints/>
+            <Fpmcp_ExcludeEndPoints/>
+        </FPMCPAnalysisOptions>
+        <ClockDetection ViaDFFs="1" ViaLatches="0"/>
+        <ResetSettings SetResetDetectionEnabled="1" SetResetDetectionEnabledViaLatches="0" StagedResetDetectionEnabled="1" IncludeAsynchInSynchResetAnalysis="1" InternallyGatedSignalIsPrimaryReset="0" MuxSelectInputIsPrimaryForSynchReset="0" ConstantDrivenMuxesDrivingDFFAreSynchReset="1" ReportSyncReset="match" ReportStagedReset="asynch"/>
+        <PathAnalysisOptions Enabled="false" AllPaths="false" NumDffToDffPaths="30" NumDffToPortPaths="20" NumPortToDffPaths="20" NumPortToPortPaths="20" PathAnalysisFilterType="" PathAnalysisIncludeFilterFromOnly="false" PathAnalysisIncludeFilterToOnly="false">
+            <PathAnalysisFilterQuartusFile></PathAnalysisFilterQuartusFile>
+            <PathAnalysisFilterXilinxFile></PathAnalysisFilterXilinxFile>
+            <PathAnalysisFilterSDCFile></PathAnalysisFilterSDCFile>
+            <PathAnalysis_IncludeEndPoints/>
+            <PathAnalysis_ExcludeEndPoints/>
+        </PathAnalysisOptions>
+        <CDCOptions CDCLimit="1000" GenMessagesBeyondCDCLimit="1" LimitCDCRecordingToProblemCDCs="0" CDCRecordingLimitToIgnoreWaivedCDCs="1" SuppressCDCFromSCR="1" OutputOfMuxedClockAsInternalClock="0" ReportEquivClockCDCs="1" ExtendedCDCAnalysis="0" AssumeOneMuxedClockActive="1" CDCConstantPhase="ALL"/>
+        <DebugFlags/>
+        <AssertionFormats SVA="0" PSL="1"/>
+        <EnabledChecks>
+            <Check>SLCC</Check>
+            <Check>System Messages</Check>
+            <Check>Parser Messages-VERI</Check>
+            <Check>Parser Messages-VHDL</Check>
+            <Check>Parser Messages-ELAB</Check>
+            <Check>Parser Messages-VBSR</Check>
+        </EnabledChecks>
+        <RealTimeChecks>
+            <Check>SLCC</Check>
+            <Check>System Messages</Check>
+            <Check>Parser Messages-VERI</Check>
+            <Check>Parser Messages-VHDL</Check>
+            <Check>Parser Messages-ELAB</Check>
+            <Check>Parser Messages-VBSR</Check>
+        </RealTimeChecks>
+        <NamingAnalysisChecks>
+            <NamingAnalysisCheck CheckName="All Objects" RegEx="" DisRegEx="" RunParentAnalysis="0" CaseInsensitive="0" UseFullPath="0"/>
+            <NamingAnalysisCheck CheckName="Filenames" RegEx="" DisRegEx="" RunParentAnalysis="1" CaseInsensitive="0" UseFullPath="0"/>
+            <NamingAnalysisCheck CheckName="Modules (all)" RegEx="" DisRegEx="" RunParentAnalysis="1" CaseInsensitive="0" UseFullPath="0"/>
+            <NamingAnalysisCheck CheckName="Modules - Verilog" RegEx="" DisRegEx="" RunParentAnalysis="1" CaseInsensitive="0" UseFullPath="0"/>
+            <NamingAnalysisCheck CheckName="Entities - VHDL" RegEx="" DisRegEx="" RunParentAnalysis="1" CaseInsensitive="0" UseFullPath="0"/>
+            <NamingAnalysisCheck CheckName="Architectures - VHDL" RegEx="" DisRegEx="" RunParentAnalysis="1" CaseInsensitive="0" UseFullPath="0"/>
+            <NamingAnalysisCheck CheckName="Ports" RegEx="" DisRegEx="" RunParentAnalysis="1" CaseInsensitive="0" UseFullPath="0"/>
+            <NamingAnalysisCheck CheckName="Inputs" RegEx="" DisRegEx="" RunParentAnalysis="1" CaseInsensitive="0" UseFullPath="0"/>
+            <NamingAnalysisCheck CheckName="Input Buses" RegEx="" DisRegEx="" RunParentAnalysis="1" CaseInsensitive="0" UseFullPath="0"/>
+            <NamingAnalysisCheck CheckName="Outputs" RegEx="" DisRegEx="" RunParentAnalysis="1" CaseInsensitive="0" UseFullPath="0"/>
+            <NamingAnalysisCheck CheckName="Output Buses" RegEx="" DisRegEx="" RunParentAnalysis="1" CaseInsensitive="0" UseFullPath="0"/>
+            <NamingAnalysisCheck CheckName="Inouts" RegEx="" DisRegEx="" RunParentAnalysis="1" CaseInsensitive="0" UseFullPath="0"/>
+            <NamingAnalysisCheck CheckName="Inout Buses" RegEx="" DisRegEx="" RunParentAnalysis="1" CaseInsensitive="0" UseFullPath="0"/>
+            <NamingAnalysisCheck CheckName="Signals" RegEx="" DisRegEx="" RunParentAnalysis="1" CaseInsensitive="0" UseFullPath="0"/>
+            <NamingAnalysisCheck CheckName="Registers" RegEx="" DisRegEx="" RunParentAnalysis="1" CaseInsensitive="0" UseFullPath="0"/>
+            <NamingAnalysisCheck CheckName="DFFs" RegEx=".*_reg" DisRegEx="" RunParentAnalysis="1" CaseInsensitive="0" UseFullPath="0"/>
+            <NamingAnalysisCheck CheckName="Latches" RegEx="" DisRegEx="" RunParentAnalysis="1" CaseInsensitive="0" UseFullPath="0"/>
+            <NamingAnalysisCheck CheckName="Clocks" RegEx="" DisRegEx="" RunParentAnalysis="1" CaseInsensitive="0" UseFullPath="0"/>
+            <NamingAnalysisCheck CheckName="Top Level Clocks" RegEx="" DisRegEx="" RunParentAnalysis="1" CaseInsensitive="0" UseFullPath="0"/>
+            <NamingAnalysisCheck CheckName="Internal Clocks" RegEx="${PARENT_CLOCK}.*" DisRegEx="" RunParentAnalysis="1" CaseInsensitive="0" UseFullPath="0"/>
+            <NamingAnalysisCheck CheckName="Clocks - Active Low" RegEx=".*_n" DisRegEx="" RunParentAnalysis="1" CaseInsensitive="0" UseFullPath="0"/>
+            <NamingAnalysisCheck CheckName="Resets" RegEx="" DisRegEx="" RunParentAnalysis="1" CaseInsensitive="0" UseFullPath="0"/>
+            <NamingAnalysisCheck CheckName="Resets - Active Low" RegEx=".*_n" DisRegEx="" RunParentAnalysis="1" CaseInsensitive="0" UseFullPath="0"/>
+            <NamingAnalysisCheck CheckName="Sets" RegEx="" DisRegEx="" RunParentAnalysis="1" CaseInsensitive="0" UseFullPath="0"/>
+            <NamingAnalysisCheck CheckName="Sets - Active Low" RegEx=".*_n" DisRegEx="" RunParentAnalysis="1" CaseInsensitive="0" UseFullPath="0"/>
+            <NamingAnalysisCheck CheckName="Clock Gating/Enabling Signals" RegEx="" DisRegEx="" RunParentAnalysis="1" CaseInsensitive="0" UseFullPath="0"/>
+            <NamingAnalysisCheck CheckName="Clock Gating/Enabling Signals - Active Low" RegEx=".*_n" DisRegEx="" RunParentAnalysis="1" CaseInsensitive="0" UseFullPath="0"/>
+            <NamingAnalysisCheck CheckName="FSM State Name" RegEx="" DisRegEx="" RunParentAnalysis="1" CaseInsensitive="0" UseFullPath="0"/>
+            <NamingAnalysisCheck CheckName="FSM State Name - Current State" RegEx="" DisRegEx="" RunParentAnalysis="1" CaseInsensitive="0" UseFullPath="0"/>
+            <NamingAnalysisCheck CheckName="FSM State Name - Next State" RegEx="(.*_next)|(.*_ns)" DisRegEx="" RunParentAnalysis="1" CaseInsensitive="0" UseFullPath="0"/>
+            <NamingAnalysisCheck CheckName="Instances" RegEx="" DisRegEx="" RunParentAnalysis="1" CaseInsensitive="0" UseFullPath="0"/>
+            <NamingAnalysisCheck CheckName="Gate Instantiations" RegEx="" DisRegEx="" RunParentAnalysis="1" CaseInsensitive="0" UseFullPath="0"/>
+            <NamingAnalysisCheck CheckName="User Instantiations" RegEx="" DisRegEx="" RunParentAnalysis="1" CaseInsensitive="0" UseFullPath="0"/>
+            <NamingAnalysisCheck CheckName="User Instantiations - Verilog" RegEx="" DisRegEx="" RunParentAnalysis="1" CaseInsensitive="0" UseFullPath="0"/>
+            <NamingAnalysisCheck CheckName="User Instantiations - VHDL" RegEx="" DisRegEx="" RunParentAnalysis="1" CaseInsensitive="0" UseFullPath="0"/>
+            <NamingAnalysisCheck CheckName="Function Names" RegEx="" DisRegEx="" RunParentAnalysis="1" CaseInsensitive="0" UseFullPath="0"/>
+            <NamingAnalysisCheck CheckName="Operator Names" RegEx="" DisRegEx="" RunParentAnalysis="1" CaseInsensitive="0" UseFullPath="0"/>
+            <NamingAnalysisCheck CheckName="Operator Parameter Names" RegEx="" DisRegEx="" RunParentAnalysis="1" CaseInsensitive="0" UseFullPath="0"/>
+            <NamingAnalysisCheck CheckName="Operator Parameter Type Names" RegEx="" DisRegEx="" RunParentAnalysis="1" CaseInsensitive="0" UseFullPath="0"/>
+            <NamingAnalysisCheck CheckName="Labels" RegEx="" DisRegEx="" RunParentAnalysis="1" CaseInsensitive="0" UseFullPath="0"/>
+            <NamingAnalysisCheck CheckName="Generate Block Label Names - VHDL" RegEx="" DisRegEx="" RunParentAnalysis="1" CaseInsensitive="0" UseFullPath="0"/>
+            <NamingAnalysisCheck CheckName="Component Instance Label Names - VHDL" RegEx="" DisRegEx="" RunParentAnalysis="1" CaseInsensitive="0" UseFullPath="0"/>
+            <NamingAnalysisCheck CheckName="Block Statement Label Names - VHDL" RegEx="" DisRegEx="" RunParentAnalysis="1" CaseInsensitive="0" UseFullPath="0"/>
+            <NamingAnalysisCheck CheckName="For Generate Statement Label Names - VHDL" RegEx="" DisRegEx="" RunParentAnalysis="1" CaseInsensitive="0" UseFullPath="0"/>
+            <NamingAnalysisCheck CheckName="If Generate Statement Label Names - VHDL" RegEx="" DisRegEx="" RunParentAnalysis="1" CaseInsensitive="0" UseFullPath="0"/>
+            <NamingAnalysisCheck CheckName="Process Label Names - VHDL" RegEx="" DisRegEx="" RunParentAnalysis="1" CaseInsensitive="0" UseFullPath="0"/>
+            <NamingAnalysisCheck CheckName="If Statement Label Names - VHDL" RegEx="" DisRegEx="" RunParentAnalysis="1" CaseInsensitive="0" UseFullPath="0"/>
+            <NamingAnalysisCheck CheckName="Case Statement Label Names - VHDL" RegEx="" DisRegEx="" RunParentAnalysis="1" CaseInsensitive="0" UseFullPath="0"/>
+            <NamingAnalysisCheck CheckName="Loop Statement Label Names - VHDL" RegEx="" DisRegEx="" RunParentAnalysis="1" CaseInsensitive="0" UseFullPath="0"/>
+            <NamingAnalysisCheck CheckName="Variable Assignment Label Names - VHDL" RegEx="" DisRegEx="" RunParentAnalysis="1" CaseInsensitive="0" UseFullPath="0"/>
+            <NamingAnalysisCheck CheckName="Procedure Call Label Names - VHDL" RegEx="" DisRegEx="" RunParentAnalysis="1" CaseInsensitive="0" UseFullPath="0"/>
+            <NamingAnalysisCheck CheckName="Wait Statement Label Names - VHDL" RegEx="" DisRegEx="" RunParentAnalysis="1" CaseInsensitive="0" UseFullPath="0"/>
+            <NamingAnalysisCheck CheckName="Assert Statement Label Names - VHDL" RegEx="" DisRegEx="" RunParentAnalysis="1" CaseInsensitive="0" UseFullPath="0"/>
+            <NamingAnalysisCheck CheckName="Case Statement Label Names - Verilog" RegEx="" DisRegEx="" RunParentAnalysis="1" CaseInsensitive="0" UseFullPath="0"/>
+            <NamingAnalysisCheck CheckName="Conditional Statement Label Names - Verilog" RegEx="" DisRegEx="" RunParentAnalysis="1" CaseInsensitive="0" UseFullPath="0"/>
+            <NamingAnalysisCheck CheckName="While Statement Label Names - Verilog" RegEx="" DisRegEx="" RunParentAnalysis="1" CaseInsensitive="0" UseFullPath="0"/>
+            <NamingAnalysisCheck CheckName="Repeat Statement Label Names - Verilog" RegEx="" DisRegEx="" RunParentAnalysis="1" CaseInsensitive="0" UseFullPath="0"/>
+            <NamingAnalysisCheck CheckName="Do Statement Label Names - Verilog" RegEx="" DisRegEx="" RunParentAnalysis="1" CaseInsensitive="0" UseFullPath="0"/>
+            <NamingAnalysisCheck CheckName="For Loop Statement Label Names - Verilog" RegEx="" DisRegEx="" RunParentAnalysis="1" CaseInsensitive="0" UseFullPath="0"/>
+            <NamingAnalysisCheck CheckName="ForEach Loop Statement Label Names - Verilog" RegEx="" DisRegEx="" RunParentAnalysis="1" CaseInsensitive="0" UseFullPath="0"/>
+            <NamingAnalysisCheck CheckName="VarAssign Statement Label Names - Verilog" RegEx="" DisRegEx="" RunParentAnalysis="1" CaseInsensitive="0" UseFullPath="0"/>
+            <NamingAnalysisCheck CheckName="Break Statement Label Names - Verilog" RegEx="" DisRegEx="" RunParentAnalysis="1" CaseInsensitive="0" UseFullPath="0"/>
+            <NamingAnalysisCheck CheckName="Assert Label Names - Verilog" RegEx="" DisRegEx="" RunParentAnalysis="1" CaseInsensitive="0" UseFullPath="0"/>
+            <NamingAnalysisCheck CheckName="Continue Label Names - Verilog" RegEx="" DisRegEx="" RunParentAnalysis="1" CaseInsensitive="0" UseFullPath="0"/>
+            <NamingAnalysisCheck CheckName="Constants" RegEx="" DisRegEx="" RunParentAnalysis="1" CaseInsensitive="0" UseFullPath="0"/>
+            <NamingAnalysisCheck CheckName="Module Parameters - Verilog" RegEx="" DisRegEx="" RunParentAnalysis="1" CaseInsensitive="0" UseFullPath="0"/>
+            <NamingAnalysisCheck CheckName="'Defines - Verilog" RegEx="" DisRegEx="" RunParentAnalysis="1" CaseInsensitive="0" UseFullPath="0"/>
+            <NamingAnalysisCheck CheckName="Module Local Parameters - Verilog" RegEx="" DisRegEx="" RunParentAnalysis="1" CaseInsensitive="0" UseFullPath="0"/>
+            <NamingAnalysisCheck CheckName="Module Def Parameters - Verilog" RegEx="" DisRegEx="" RunParentAnalysis="1" CaseInsensitive="0" UseFullPath="0"/>
+            <NamingAnalysisCheck CheckName="Module Spec Parameters - Verilog" RegEx="" DisRegEx="" RunParentAnalysis="1" CaseInsensitive="0" UseFullPath="0"/>
+            <NamingAnalysisCheck CheckName="Entity Generics - VHDL" RegEx="" DisRegEx="" RunParentAnalysis="1" CaseInsensitive="0" UseFullPath="0"/>
+            <NamingAnalysisCheck CheckName="Constants - VHDL" RegEx="" DisRegEx="" RunParentAnalysis="1" CaseInsensitive="0" UseFullPath="0"/>
+            <NamingAnalysisCheck CheckName="Variables - VHDL" RegEx="" DisRegEx="" RunParentAnalysis="1" CaseInsensitive="0" UseFullPath="0"/>
+            <NamingAnalysisCheck CheckName="Language Keywords" RegEx="" DisRegEx="" RunParentAnalysis="1" CaseInsensitive="0" UseFullPath="0"/>
+            <NamingAnalysisCheck CheckName="Language Keywords - VHDL" RegEx="" DisRegEx="" RunParentAnalysis="1" CaseInsensitive="0" UseFullPath="0"/>
+            <NamingAnalysisCheck CheckName="Language Keywords - Verilog" RegEx="" DisRegEx="" RunParentAnalysis="1" CaseInsensitive="0" UseFullPath="0"/>
+            <NamingAnalysisCheck CheckName="Constant Value" RegEx="" DisRegEx="" RunParentAnalysis="1" CaseInsensitive="0" UseFullPath="0"/>
+            <NamingAnalysisCheck CheckName="Constant Value - VHDL" RegEx="" DisRegEx="" RunParentAnalysis="1" CaseInsensitive="0" UseFullPath="0"/>
+            <NamingAnalysisCheck CheckName="Constant Value std_(u)logic - VHDL" RegEx="" DisRegEx="" RunParentAnalysis="1" CaseInsensitive="0" UseFullPath="0"/>
+            <NamingAnalysisCheck CheckName="Constant Value Integer - VHDL" RegEx="" DisRegEx="" RunParentAnalysis="1" CaseInsensitive="0" UseFullPath="0"/>
+            <NamingAnalysisCheck CheckName="Constant Value Physical Types - VHDL" RegEx="" DisRegEx="" RunParentAnalysis="1" CaseInsensitive="0" UseFullPath="0"/>
+            <NamingAnalysisCheck CheckName="Constant Value Real - VHDL" RegEx="" DisRegEx="" RunParentAnalysis="1" CaseInsensitive="0" UseFullPath="0"/>
+            <NamingAnalysisCheck CheckName="Constant Value - Verilog" RegEx="" DisRegEx="" RunParentAnalysis="1" CaseInsensitive="0" UseFullPath="0"/>
+            <NamingAnalysisCheck CheckName="Constant Value Integer - Verilog" RegEx="" DisRegEx="" RunParentAnalysis="1" CaseInsensitive="0" UseFullPath="0"/>
+            <NamingAnalysisCheck CheckName="Constant Value Time - Verilog" RegEx="" DisRegEx="" RunParentAnalysis="1" CaseInsensitive="0" UseFullPath="0"/>
+            <NamingAnalysisCheck CheckName="Constant Value Real - Verilog" RegEx="" DisRegEx="" RunParentAnalysis="1" CaseInsensitive="0" UseFullPath="0"/>
+            <NamingAnalysisCheck CheckName="Port Data Types" RegEx="" DisRegEx="" RunParentAnalysis="1" CaseInsensitive="0" UseFullPath="0"/>
+            <NamingAnalysisCheck CheckName="Port Data Types - VHDL" RegEx="" DisRegEx="" RunParentAnalysis="1" CaseInsensitive="0" UseFullPath="0"/>
+            <NamingAnalysisCheck CheckName="Port Data Types - Verilog" RegEx="" DisRegEx="" RunParentAnalysis="1" CaseInsensitive="0" UseFullPath="0"/>
+            <NamingAnalysisCheck CheckName="Data Types" RegEx="" DisRegEx="" RunParentAnalysis="1" CaseInsensitive="0" UseFullPath="0"/>
+            <NamingAnalysisCheck CheckName="Signal Data Types - VHDL" RegEx="" DisRegEx="" RunParentAnalysis="1" CaseInsensitive="0" UseFullPath="0"/>
+            <NamingAnalysisCheck CheckName="Signal Data Types - Verilog" RegEx="" DisRegEx="" RunParentAnalysis="1" CaseInsensitive="0" UseFullPath="0"/>
+            <NamingAnalysisCheck CheckName="Variable Data Types - VHDL" RegEx="" DisRegEx="" RunParentAnalysis="1" CaseInsensitive="0" UseFullPath="0"/>
+            <NamingAnalysisCheck CheckName="Variable Data Types - Verilog" RegEx="" DisRegEx="" RunParentAnalysis="1" CaseInsensitive="0" UseFullPath="0"/>
+            <NamingAnalysisCheck CheckName="Alias Data Types - VHDL" RegEx="" DisRegEx="" RunParentAnalysis="1" CaseInsensitive="0" UseFullPath="0"/>
+            <NamingAnalysisCheck CheckName="Alias Data Types - Verilog" RegEx="" DisRegEx="" RunParentAnalysis="1" CaseInsensitive="0" UseFullPath="0"/>
+            <NamingAnalysisCheck CheckName="File Types - VHDL" RegEx="" DisRegEx="" RunParentAnalysis="1" CaseInsensitive="0" UseFullPath="0"/>
+            <NamingAnalysisCheck CheckName="File Types - Verilog" RegEx="" DisRegEx="" RunParentAnalysis="1" CaseInsensitive="0" UseFullPath="0"/>
+            <NamingAnalysisCheck CheckName="Others Assignments - VHDL" RegEx="" DisRegEx="" RunParentAnalysis="1" CaseInsensitive="0" UseFullPath="0"/>
+            <NamingAnalysisCheck CheckName="Libraries" RegEx="" DisRegEx="" RunParentAnalysis="1" CaseInsensitive="0" UseFullPath="0"/>
+            <NamingAnalysisCheck CheckName="Libraries - VHDL" RegEx="" DisRegEx="" RunParentAnalysis="1" CaseInsensitive="0" UseFullPath="0"/>
+            <NamingAnalysisCheck CheckName="Packages - VHDL" RegEx="" DisRegEx="" RunParentAnalysis="1" CaseInsensitive="0" UseFullPath="0"/>
+            <NamingAnalysisCheck CheckName="Design Units - VHDL" RegEx="" DisRegEx="" RunParentAnalysis="1" CaseInsensitive="0" UseFullPath="0"/>
+            <NamingAnalysisCheck CheckName="Packages - Verilog" RegEx="" DisRegEx="" RunParentAnalysis="1" CaseInsensitive="0" UseFullPath="0"/>
+            <NamingAnalysisCheck CheckName="Package Items - Verilog" RegEx="" DisRegEx="" RunParentAnalysis="1" CaseInsensitive="0" UseFullPath="0"/>
+            <NamingAnalysisCheck CheckName="Port Grouping" RegEx="" DisRegEx="" RunParentAnalysis="0" CaseInsensitive="0" UseFullPath="0"/>
+            <NamingAnalysisCheck CheckName="Inappropriate Comment" RegEx="" DisRegEx="" RunParentAnalysis="0" CaseInsensitive="1" UseFullPath="0"/>
+            <NamingAnalysisCheck CheckName="Identify - Static Control Registers" RegEx="(.*_cfg)|(config.*)" DisRegEx="" RunParentAnalysis="0" CaseInsensitive="1" UseFullPath="0"/>
+            <NamingAnalysisCheck CheckName="Identify - Top Level Clocks" RegEx="(.*ck.*)|(.*clk.*)|(.*clock.*)" DisRegEx="(.*first.*)|(.*burst.*)|(.*enable_clk.*)" RunParentAnalysis="0" CaseInsensitive="1" UseFullPath="0"/>
+            <NamingAnalysisCheck CheckName="Identify - Internal Clocks" RegEx="(.*ck.*)|(.*clk.*)|(.*clock.*)" DisRegEx="(.*first.*)|(.*burst.*)|(.*enable_clk.*)" RunParentAnalysis="0" CaseInsensitive="1" UseFullPath="0"/>
+            <NamingAnalysisCheck CheckName="Identify - Clock Gating Signals" RegEx="" DisRegEx="" RunParentAnalysis="0" CaseInsensitive="0" UseFullPath="0"/>
+            <NamingAnalysisCheck CheckName="Identify - Set Signals" RegEx="(_sn)|(preset)|(set)|(sn)|(.*set)|(set.*)" DisRegEx="(.*first.*)|(.*burst.*)|(.*enable_clk.*)" RunParentAnalysis="0" CaseInsensitive="1" UseFullPath="0"/>
+            <NamingAnalysisCheck CheckName="Identify - Reset Signals" RegEx="(_rn)|(clear)|(clr)|(reset)|(rn)|(rst)|(.*clear.*)|(.*clr.*)|(.*reset.*)|(.*rst.*)|(.*clr)|(.*reset)|(.*rst)|(clear.*)|(clr.*)|(reset.*)|(rst.*)" DisRegEx="(.*first.*)|(.*burst.*)|(.*enable_clk.*)" RunParentAnalysis="0" CaseInsensitive="1" UseFullPath="0"/>
+            <NamingAnalysisCheck CheckName="Exclude Dangling Signals" RegEx=".*_nc" DisRegEx="" RunParentAnalysis="0" CaseInsensitive="0" UseFullPath="0"/>
+            <NamingAnalysisCheck CheckName="Exclude Dangling Pins" RegEx=".*_nc" DisRegEx="" RunParentAnalysis="0" CaseInsensitive="0" UseFullPath="0"/>
+            <NamingAnalysisCheck CheckName="Identify - Tie Nets" RegEx="(TIE_HI_.*)|(TIE_LO_.*)" DisRegEx="" RunParentAnalysis="0" CaseInsensitive="1" UseFullPath="0"/>
+            <NamingAnalysisCheck CheckName="Synchronizer Signal Names" RegEx="" DisRegEx="" RunParentAnalysis="0" CaseInsensitive="0" UseFullPath="0"/>
+        </NamingAnalysisChecks>
+        <AssignmentOptions>
+            <AssignmentOption Check="MCA" Value="REPORT_INFERRED_LATCHES"/>
+            <AssignmentOption Check="MIA" Value="REPORT_INFERRED_LATCHES"/>
+            <AssignmentOption Check="MEA" Value="REPORT_INFERRED_LATCHES"/>
+            <AssignmentOption Check="MEB" Value="REPORT_INFERRED_LATCHES"/>
+            <AssignmentOption Check="ETB" Value="REPORT_INFERRED_LATCHES"/>
+            <AssignmentOption Check="UBA" Value="IGNORE_CLOCKS"/>
+            <AssignmentOption Check="MDR" Value=""/>
+        </AssignmentOptions>
+        <SignalConstraints/>
+        <CyclicSignals/>
+    </AnalysisOptions>
+    <SDCSettings>
+        <Migration MigrateDown="true" SubModule="" SubModuleSDC="" TopModuleSDC=""/>
+        <Compare LHSFile="" RHSFile="" IgnoreThrough="false" LoadDesign="true" CmpCycles="false" SortResults="false"/>
+    </SDCSettings>
+    <MessageSeverityOverrides LanguageCheckLevel="Default"/>
+    <ReportPackages/>
+    <DesignSignoff/>
+    <VendorReportFiles>
+        <XilinxVendorReportFiles Timing="" Power="" Utilization="" ConfigUtilization=""/>
+        <IntelVendorReportFiles Timing="" Power="" Utilization="" ConfigUtilization=""/>
+        <MicrosemiVendorReportFiles Timing="" Power="" Utilization="" ConfigUtilization=""/>
+    </VendorReportFiles>
+</BluePearlDesignFile>

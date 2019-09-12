@@ -1,0 +1,11 @@
+===============================
+Blue Pearl Clocks Report created on: Thu Sep 12 10:15:23 2019
+===============================
+Clock Report:
+All Clocks automatically detected
+1 primary clock identified:
+Clock Name: d_type.clk Clock Domain Name: clk_group (automatically detected) Fanout: 1
+===============================
+Internal Clock Report:
+0 internally generated clocks identified
+===============================

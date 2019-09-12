@@ -1,0 +1,3 @@
+-output C:/Users/aptay/Dropbox/adiuvo/bluepearl/BPS_custom_blog/Results
+-tcl C:/Users/aptay/Dropbox/adiuvo/bluepearl/BPS_custom_blog/Results/bluepearl.settings.tcl
+-tcl C:/Users/aptay/Dropbox/adiuvo/bluepearl/BPS_custom_blog/Results/bluepearl.runme.tcl
