@@ -14,6 +14,7 @@ BPS::reset_naming_options
 BPS::set_check_enabled SLCC -enabled true
 BPS::add_check_to_package   -check SLCC {Adiuvo_Package}
 BPS::add_check_to_checklist -check SLCC -checklist {Adiuvo CL}
+BPS::add_message_criterion_to_checklist -checklist {Adiuvo CL} -msgid BPS-0040 -range {1}
 BPS::set_check_extrainfo SLCC -text {Adv-01} -package {ACS}
 BPS::set_message_extrainfo BPS-0040 -text {Adv-01} -package {ACS}
 BPS::set_msg_check_package {ACS}
